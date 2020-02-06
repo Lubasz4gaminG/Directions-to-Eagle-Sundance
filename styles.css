@@ -1,18 +1,28 @@
-body {
-    height:2000px;
-    width: 100%;
-    margin:0;
-    padding:0;
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+
+  border: 2px dashed rgba(114, 186, 94, 0.35);
+  height: 400px;
+  background: rgba(114, 186, 94, 0.05);
 }
 
-#scroller-left{
-    position: fixed;
-    left: 0;
-    background:#CCC;
+.pirate {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 4rem;
 }
 
-#scroller-right{
-    position: fixed;
-    right: 0;
-    background:#CCC;
+.police {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.doctor {
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 1rem;
+  align-self: flex-end;
 }
