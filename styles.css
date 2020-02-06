@@ -1,28 +1,15 @@
-.container {
-  display: flex;
-  justify-content: space-around;
-  align-items: flex-start;
-
-  border: 2px dashed rgba(114, 186, 94, 0.35);
-  height: 400px;
-  background: rgba(114, 186, 94, 0.05);
+.sticky
+{
+     position: sticky;
+     position: -webkit-sticky;
+     width: 100px;
+     height: 100px;
+     top: 20px;
 }
-
-.pirate {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 4rem;
-}
-
-.police {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-}
-
-.doctor {
-  position: -webkit-sticky;
-  position: sticky;
-  bottom: 1rem;
-  align-self: flex-end;
+.box
+{
+     background-image: url('SD.jpg');
+     height: 700px;
+     padding: 0 20px 20px 20px;
+     margin-top: 20px;
 }
