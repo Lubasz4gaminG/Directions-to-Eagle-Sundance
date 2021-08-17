@@ -69,8 +69,8 @@ a.prev:hover,a.next:hover {
 	z-index: 100;
 }
 img {
-	max-width:100%;
-	width:100%;
+	max-width:50%;
+	width:50%;
 	position:fixed;
 	left:0;
 }
